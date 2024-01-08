@@ -4,3 +4,5 @@ this file includes how to configure store
 3) create a const store var with configureStore function
 //slice is keyword to denote u are  using redux toolkit
 create features folder
+//to access reducer we use useSelector()
+//to use reducer we use useDispatch()

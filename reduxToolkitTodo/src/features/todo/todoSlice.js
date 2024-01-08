@@ -46,7 +46,8 @@ export const todoSlice=createSlice({
         },
         
         
-    }
+    },
+    
 })
 
 //export functionalities
