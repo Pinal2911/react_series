@@ -1,0 +1,6 @@
+this file includes how to configure store
+1) create a folder app and create store.js
+2) import configureStore from reduxjs/toolkit
+3) create a const store var with configureStore function
+//slice is keyword to denote u are  using redux toolkit
+create features folder
