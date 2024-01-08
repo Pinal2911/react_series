@@ -39,8 +39,13 @@ export const todoSlice=createSlice({
         },
         updateTodo:(state,action)=>{
             state.todos.filter((todo) => {
+               console.log(todo.id)
+               console.log("action id",action)
+               console.log(state.todos)
+               
                 if(todo.id == action.payload.id){
-                    todo.text=action.payload.text
+                    
+                    todo.text="updated text"
                 }
             })
         },
